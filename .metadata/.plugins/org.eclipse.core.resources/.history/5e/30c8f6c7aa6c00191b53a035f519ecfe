@@ -1,0 +1,5 @@
+package com.java.servletDemo;
+
+public class HelloServletController extends HttpServlet {
+
+}

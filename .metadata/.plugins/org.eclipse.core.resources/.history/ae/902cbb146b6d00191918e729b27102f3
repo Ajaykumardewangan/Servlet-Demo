@@ -1,0 +1,37 @@
+package com.java.FilterController;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.logging.Filter;
+import java.util.logging.LogRecord;
+
+import javax.servlet.FilterChain;
+import javax.servlet.FilterConfig;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+
+public class MyFilter implements MyFilter {
+
+	public void init(FilterConfig arg0) throws ServletException {
+	}
+
+	public void doFilter(ServletRequest req, ServletResponse resp, FilterChain chain)
+			throws IOException, ServletException {
+
+		PrintWriter out = resp.getWriter();
+		out.print("filter is invoked before");
+
+		chain.doFilter(req, resp);// sends request to next resource
+
+		out.print("filter is invoked after");
+	}
+
+	public void destroy() {
+	}
+
+	@Override
+	public boolean isLoggable(LogRecord arg0) {
+		return false;
+	}
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.net.ssl.HttpsURLConnection"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+<fullyQualifiedTypeName name="com.java.repository.LoginRepo"/>
+<fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
+<fullyQualifiedTypeName name="com.java.entity.EmpEntity"/>
+<fullyQualifiedTypeName name="com.java.repository.EmpRepo"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="com.java.service.EmpService"/>
+<fullyQualifiedTypeName name="com.java.repo.EmpRepo"/>
+<fullyQualifiedTypeName name="javax.mail.PasswordAuthentication"/>
+<fullyQualifiedTypeName name="com.java.controller.SendMailController"/>
+<fullyQualifiedTypeName name="java.util.logging.Filter"/>
+<fullyQualifiedTypeName name="javax.servlet.Filter"/>
+</qualifiedTypeNameHistroy>

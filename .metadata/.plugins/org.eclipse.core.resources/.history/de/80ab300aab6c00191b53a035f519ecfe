@@ -1,0 +1,11 @@
+package com.java.servletDemo;
+
+import javax.servlet.http.HttpServlet;
+
+public class HelloServletController extends HttpServlet {
+
+	private static final long serialVersionUID = 1L;
+
+	
+	
+}
